@@ -11,7 +11,7 @@ def find_survivor(number):
     the person before you get the bottle, you are eliminated. 
     """
     
-    # Initialize
+    # Initialize the deque. OK?
     remaining_people = deque([i for i in range(1, number + 1)])
     
     # Iterate through the queue, until only one person is left
